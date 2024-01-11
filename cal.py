@@ -86,7 +86,7 @@ def find_hour_length(end, start):
 
 
 def get_cal_image():
-    image = Image.new("RGBA", (width, height), (255, 255, 255))
+    image = Image.new("RGBA", (width, height), (0, 0, 0))
     draw = ImageDraw.Draw(image)
     params = {
         "lat": 39.84,
