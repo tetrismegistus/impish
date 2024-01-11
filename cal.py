@@ -93,7 +93,7 @@ def get_cal_image():
         "lon": -86.14,
         "exclude": "minutely,alerts",
         "units": "imperial",
-        "appid": "616111e7f3d051d7d2352c9ab405861f"
+        "appid": ""
     }
     data = request_wrapper("https://api.openweathermap.org/data/3.0/onecall", params)
     icon = data["current"]["weather"][0]["icon"]
